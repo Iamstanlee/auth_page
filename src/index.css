@@ -1,8 +1,4 @@
 @font-face {
-  src: url('./assets/font/Karla-Bold.ttf');
-  font-family: 'KarlaBold';
-}
-@font-face {
-  src: url('./assets/font/Karla-Regular.ttf');
-  font-family: 'Karla';
+ src: url('/src/Ubuntu.ttf');
+ font-family: 'Ubuntu';
 }

@@ -1,95 +1,95 @@
 .form {
-  margin: 0 auto;
-  width: 350px;
-  background: white;
-  bottom: 0.4px solid #dedede;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -160px;
-  margin-top: -200px;
-  z-index: 9999;
-  animation: fadeIn 0.4s ease-in;
+ margin: 0 auto;
+ width: 350px;
+ background: white;
+ bottom: 0.4px solid #dedede;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ margin-left: -160px;
+ margin-top: -200px;
+ z-index: 9999;
+ animation: fadeIn 0.4s ease-in;
 }
 @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
+ 0% {
+  opacity: 0;
+ }
 
-  100% {
-    opacity: 1;
-  }
+ 100% {
+  opacity: 1;
+ }
 }
 
 .header {
-  text-align: center;
-  font-family: 'Karla';
+ text-align: center;
+ font-family: 'Karla';
 }
 .inputcontainer {
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
+ display: flex;
+ flex-direction: column;
+ padding: 30px;
 }
 .input {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 15px;
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 15px;
 }
 .input span {
-  font-size: 14px;
-  text-align: left;
-  font-family: 'Ubuntu';
+ font-size: 14px;
+ text-align: left;
+ font-family: 'Ubuntu';
 }
 
 .input input {
-  padding: 8px;
-  background: #dedede;
-  border: none;
-  outline: none;
-  font-family: 'Ubuntu';
+ padding: 8px;
+ background: #dedede;
+ border: none;
+ outline: none;
+ font-family: 'Ubuntu';
 }
 
 .inputcontainer button {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
-  padding: 10px;
-  background: #0073b1;
-  color: white;
-  font-size: 18px;
-  border: none;
-  font-family: 'KarlaBold';
-  transition: 0.5s box-shadow;
+ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+ padding: 10px;
+ background: #0073b1;
+ color: white;
+ font-size: 18px;
+ border: none;
+ font-family: 'Ubuntu';
+ transition: 0.5s box-shadow;
 }
 .fgt {
-  text-align: center;
-  color: #0073b1;
-  padding-top: 9px;
-  font-size: 14px;
-  font-family: 'Ubuntu';
+ text-align: center;
+ color: #0073b1;
+ padding-top: 9px;
+ font-size: 14px;
+ font-family: 'Ubuntu';
 }
 .fgt:hover {
-  cursor: pointer;
+ cursor: pointer;
 }
 .signup {
-  padding-top: 15px;
-  text-align: center;
-  font-size: 14px;
-  font-family: 'Ubuntu';
+ padding-top: 15px;
+ text-align: center;
+ font-size: 14px;
+ font-family: 'Ubuntu';
 }
 .signup span {
-  color: #0073b1;
-  font-family: 'Ubuntu';
+ color: #0073b1;
+ font-family: 'Ubuntu';
 }
 .signup span:hover {
-  cursor: pointer;
+ cursor: pointer;
 }
 .inputcontainer button:hover {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
-  cursor: pointer;
+ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+ cursor: pointer;
 }
 
 .emailSent {
-  text-align: left;
-  padding: 0 20px;
-  font-family: 'Ubuntu';
-  font-size: 14px;
+ text-align: left;
+ padding: 0 20px;
+ font-family: 'Ubuntu';
+ font-size: 14px;
 }
