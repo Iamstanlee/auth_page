@@ -29,10 +29,6 @@ class Login extends Component {
         onClick={e => {
          e.preventDefault();
          this.setState({ loading: true });
-         setTimeout(() => {
-          this.setState({ loading: false });
-          this.props.history.push('/');
-         }, 3000);
         }}
        >
         LOGIN
@@ -40,7 +36,7 @@ class Login extends Component {
        <span className={classes.signup}>
         New ?{' '}
         <span
-         onClick={() => this.props.history.push('./signup')}
+         onClick={() => this.props.history.push('/signup')}
         >
          Sign Up
         </span>
