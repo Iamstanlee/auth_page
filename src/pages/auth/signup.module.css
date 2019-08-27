@@ -1,0 +1,73 @@
+.form {
+  margin: 0 auto;
+  width: 350px;
+  background: white;
+  bottom: 0.4px solid #dedede;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -160px;
+  margin-top: -250px;
+  z-index: 9999;
+  animation: fadeIn 0.2s ease-in;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.header {
+  text-align: center;
+  font-family: 'Karla';
+}
+.inputcontainer {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.input span {
+  font-size: 14px;
+  text-align: left;
+  font-family: 'Ubuntu';
+}
+
+.input input {
+  padding: 8px;
+  background: #dedede;
+  font-family: 'Ubuntu';
+  border: none;
+}
+
+.inputcontainer button {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  background: #0073b1;
+  color: white;
+  font-size: 18px;
+  border: none;
+  font-family: 'KarlaBold';
+  transition: 0.5s box-shadow;
+}
+.policy {
+  text-align: center;
+  padding: 12px;
+  font-size: 14px;
+  font-family: 'Ubuntu';
+}
+.fgt:hover {
+  cursor: pointer;
+}
+.inputcontainer button:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
