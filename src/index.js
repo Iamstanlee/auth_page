@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import './index.css';
 
 const app = (
- <BrowserRouter basename="/authpage/login">
+ <BrowserRouter basename="/login">
   <App />
  </BrowserRouter>
 );
