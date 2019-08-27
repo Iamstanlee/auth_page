@@ -2,7 +2,7 @@
  "name": "authpage",
  "version": "0.1.0",
  "private": true,
- "homepage": "https://iamstanlee.github.io",
+ "homepage": "https://iamstanlee.github.io/auth_page",
  "dependencies": {
   "gh-pages": "^2.0.1",
   "react": "^16.8.6",
